@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: url("image/body.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 2000px;
+    max-width: 1170px;
+    
+
+}
+
+nav{
+    display: flex;
+    background: #00076e;
+    width: 1170px;
+    height: 80px;
+    justify-content: center;
+    margin: 0 100px;
+}
+
+
+
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+nav ul li{
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: rgb(253, 253, 252);
+    padding: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background: orangered;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul .logo{
+    display: flex;
+    padding-right: 200px;
+    padding-bottom: 10px;
+
+}
+
+.slider{
+    display: flex;
+    height: 300px;
+    background-color: black;
+    margin: 0 100px;
+    width: 1170px;
+}
+
+
+
+.one{
+    display: inline-flex;
+    height: 300px;
+    width: 1170px;
+    justify-content: center;
+}
+
+
+.two{
+    display: inline-flex;
+    height: 300px;
+    width: 50%;
+    background-position: cover;
+}
+
+.text-bg{
+    background: rgb(0,0,0);
+    height: 100%;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.text-bg h1{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lemonada', cursive;
+}
+
+span{
+    color: orange;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 35px;
+}
+
+.text-bg h2{
+    color: orangered;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text-bg p{
+    color: rgb(253, 253, 251);
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 40%;
+    background: orangered;
+    height: 30px;
+    width: 130px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 5px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.btn:hover{
+    background: rgb(1, 9, 116);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+/* news */
+
+.news{
+    display: flex;
+    height: 50px;
+    width: 1170px;
+    background-color: black;
+    margin: 0% 100px;
+    margin-top: 3px;
+}
+
+.news-letter{
+    display: inline-flex;
+    background: rgb(3, 3, 247);
+    width: 50%;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(253, 252, 251);
+    padding-top: 5px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.news-letter i{
+    display: inline-flex;
+    justify-content: center;
+    font-size: 35px;
+    color: orangered;
+    padding-left: 20px;
+}
+
+
+.n-form{
+    background: rgb(18, 18, 202);
+    display: inline-flex;
+    width: 50%;
+    justify-content: center;
+    color: white;
+}
+
+.n-form input {
+    display: inline-flex;
+    padding-right: 100px;
+    margin: 10px 10px;
+    border-radius: 10px 10px;
+}
+
+.n-form .mytext{
+    display: inline-flex;
+    text-align: center;
+}
+
+
+.n-form .send input{
+    display: inline-flex;
+    color: white;
+    background: orangered;
+    border-radius: 10px 10px;
+    font-size: 20px;
+    padding: 0px 15px;
+    box-shadow: black solid;
+    cursor: pointer;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+.n-form .send input:hover{
+    background: navy;
+    transition: 0.3s ease-in-out;
+}
+
+
+.space{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: bolder;
+    color: orange;
+    margin: 0% 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.line{
+    background-color: black;
+    height: 3px;
+    width: 100%;
+}
+
+
+/* packages */
+
+.pkg-cont{
+    display: flex;
+    height: 255px;
+    width: 100%;
+    margin: 0 100px;
+    justify-content: center;
+    
+}
+
+.pkg1{
+    display: inline-flex;
+    height: 255px;
+    width: 255px;
+    justify-content: center;
+    background-size: cover;
+    background: orange;
+}
+
+
+
+.pkg2{
+    display: inline-flex;
+    height: 255px;
+    width: 255px;
+    justify-content: center;
+    background-size: cover;
+    margin-left: 50px;
+    background: orange;
+}
+
+
+.pkg3{
+    display: inline-flex;
+    height: 255px;
+    width: 255px;
+    justify-content: center;
+    background-size: cover;
+    margin-left: 50px;
+    background: orange;
+}
+
+
+.pkg4{
+    display: inline-flex;
+    height: 255px;
+    width: 255px;
+    justify-content: center;
+    background-size: cover;
+    margin-left: 50px;
+    background: orange;
+}
+
+
+/* why to learn */
+
+.why-learn{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin: 20px 100px;
+    justify-content: center;
+}
+
+
+
+.q1 h1{
+    display: inline-flex;
+    background: navy;
+    height: 55px;
+    width: 255px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.q1 h2{
+    display: inline-flex;
+    font-size: 16px;
+    height: 200px;
+    width: 255px;
+    padding-top: 20px;
+    background: black;
+    color: orangered;
+    text-align: center;
+}
+
+
+
+
+.q2 h1{
+    display: inline-flex;
+    background: navy;
+    height: 55px;
+    width: 255px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.q2 h2{
+    display: inline-flex;
+    font-size: 16px;
+    height: 200px;
+    width: 255px;
+    padding-top: 20px;
+    text-align: center;
+    background: black;
+    color: orangered;
+}
+
+
+
+.q3 h1{
+    display: inline-flex;
+    background: navy;
+    height: 55px;
+    width: 255px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.q3 h2{
+    display: inline-flex;
+    font-size: 16px;
+    height: 200px;
+    width: 255px;
+    padding-top: 20px;
+    text-align: center;
+    background: black;
+    color: orangered;
+}
+
+
+
+.q4 h1{
+    display: inline-flex;
+    background: navy;
+    height: 55px;
+    width: 255px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.q4 h2{
+    display: inline-flex;
+    font-size: 16px;
+    height: 200px;
+    width: 255px;
+    padding-top: 20px;
+    text-align: center;
+    background: black;
+    color: orangered;
+}
+
+.q2, .q3, .q4{
+    margin-left: 50px;
+}
+
+
+
+.why{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: bolder;
+    color: orange;
+    margin: 0% 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.line{
+    background-color: black;
+    height: 3px;
+    width: 100%;
+}
+
+
+/* mission */
+
+.mission{
+    display: flex;
+    height: 300px;
+    margin: 0 100px;
+    width: 1170px;
+    padding-top: 20px;
+}
+
+
+
+.one1{
+    display: inline-flex;
+    height: 300px;
+    width: 45%;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+
+.two2{
+    background: navy;
+    display: inline-flex;
+    height: 300px;
+    width: 45%;
+    background-position: cover;
+    justify-content: center;
+}
+
+.text-bg1{
+    background: rgb(0,0,0);
+    height: 100%;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.text-bg1 h1{
+    color: orange;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+
+
+
+.text-bg1 p{
+    color: rgb(253, 253, 251);
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+.msn{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: orange;
+    margin: 0% 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.line{
+    background-color: black;
+    height: 3px;
+    width: 100%;
+}
+
+
+/* footer */
+
+
+.contact-us{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: orange;
+    margin: 0% 100px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.last-line{
+    background-color: black;
+    height: 3px;
+    width: 100%;
+}
+
+
+
+
+.footer-container{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    margin: 0% 100px;
+    background-color: blue;
+}
+
+
+.footer-left{
+    background-color: black;
+    height: 200px;
+    width: 50%;
+    color: orangered;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.footer-left h1{
+    padding-top: 20px;
+    color: orangered;
+    font-size: 25px;
+}
+
+
+.footer-left h1 p{
+    display: inline-block;
+    color: orange;
+    font-size: 16px;
+    padding-left: 10px;
+    justify-self: center;
+}
+
+
+.footer-left h2{
+    padding-top: 15px;
+    color: orangered;
+    font-size: 25px;
+}
+
+
+.footer-left h2 p{
+    display: inline-block;
+    color: orange;
+    font-size: 16px;
+    padding-left: 10px;
+    justify-self: center;
+}
+
+
+
+.footer-left h3{
+    padding-top: 15px;
+    color: orangered;
+    font-size: 25px;
+}
+
+
+.footer-left h3 p{
+    display: inline-block;
+    color: orange;
+    font-size: 16px;
+    padding-left: 10px;
+    justify-self: center;
+}
+
+
+/* right */
+
+
+
+.footer-right{
+    background-color: navy;
+    height: 200px;
+    width: 25%;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+
+.footer-right a:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+
+.footer-right h1{
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.footer-right h1 a{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    justify-self: center;
+    text-decoration: none;
+}
+
+
+.footer-right h2{
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.footer-right h2 a{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    justify-self: center;
+    text-decoration: none;
+}
+
+.footer-right h3{
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.footer-right h3 a{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    justify-self: center;
+    text-decoration: none;
+}
+
+
+
+/* right2 */
+.right2{
+    display: block;
+    background: navy;
+    height: 200px;
+    width: 25%;
+    padding-top: 40px;
+
+}
+
+
+
+.right2 h4{
+    display: inline-block;
+    padding-top: 25px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.right2 h4 a{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    padding-left: 20px;
+    justify-self: center;
+    text-decoration: none;
+}
+
+
+.right2 h5{
+    display: inline-block;
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.right2 h5 a{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    padding-left: 20px;
+    justify-self: center;
+    text-decoration: none;
+}
+
+.right2 h6{
+    display: inline-block;
+    padding-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.right2 h6 a{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    padding-left: 20px;
+    justify-self: center;
+    text-decoration: none;
+}
+
+.right2 a:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.copy{
+    color: white;
+    font-size: 16px;
+    background-color: blue;
+    height: 25px;
+    width: 100%;
+    margin: 0% 100px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
